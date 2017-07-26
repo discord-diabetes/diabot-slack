@@ -22,7 +22,7 @@ Lita.configure do |config|
     config.redis[:url] = ENV['LITA_REDIS_URL'] || 'redis://127.0.0.1:6379/'
   end
 
-  config.handlers.keepalive.url = 'http://diabot-slack.herokuapp.com'
+  config.handlers.keepalive.url = 'https://diabot-slack.herokuapp.com'
 
   config.handlers.diabetes.lower_bg_bound = '20'
   config.handlers.diabetes.upper_bg_bound = '35'
