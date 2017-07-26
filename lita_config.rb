@@ -5,13 +5,8 @@ Lita.configure do |config|
 
   config.robot.name = 'diabot'
   config.robot.locale = :en
-  config.robot.log_level = :debug
+  config.robot.log_level = :info
   config.adapters.slack.token = ENV['SLACK_TOKEN']
-
-  # config.adapters.slack.link_names = true
-  # config.adapters.slack.parse = "full"
-  config.adapters.slack.unfurl_links = false
-  config.adapters.slack.unfurl_media = false
 
   platform = :heroku if ENV['DYNO']
   case platform
