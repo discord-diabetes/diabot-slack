@@ -24,7 +24,7 @@ Lita.configure do |config|
 
   config.handlers.keepalive.url = 'https://diabot-slack.herokuapp.com'
 
-  config.handlers.diabetes.lower_bg_bound = '20'
+  config.handlers.diabetes.lower_bg_bound = '1'
   config.handlers.diabetes.upper_bg_bound = '35'
 
 end
