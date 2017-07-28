@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    eventmachine (1.2.3)
+    eventmachine (1.2.5)
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)

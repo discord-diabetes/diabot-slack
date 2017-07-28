@@ -1,5 +1,4 @@
 Lita.configure do |config|
-
   config.robot.adapter = :slack
   config.robot.admins = []
 
@@ -21,5 +20,4 @@ Lita.configure do |config|
 
   config.handlers.diabetes.lower_bg_bound = '1'
   config.handlers.diabetes.upper_bg_bound = '35'
-
 end
