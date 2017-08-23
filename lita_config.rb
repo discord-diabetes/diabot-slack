@@ -4,7 +4,7 @@ Lita.configure do |config|
 
   config.robot.name = 'diabot'
   config.robot.locale = :en
-  config.robot.log_level = :info
+  config.robot.log_level = :debug
   config.adapters.slack.token = ENV['SLACK_TOKEN']
 
   platform = :heroku if ENV['DYNO']
